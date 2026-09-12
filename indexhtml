@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>나무와나무 - 친환경 원목 공간 & 목공 체험</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f5f5f5;
+        }
+        /* 단어 단위 줄바꿈을 통해 모바일에서 글자가 어색하게 잘리는 것을 방지합니다. */
+        .keep-all {
+            word-break: keep-all;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#fdfbf7', // 따뜻한 베이지 (배경)
+                            DEFAULT: '#8b5a2b', // 원목 색상 (버튼 및 포인트)
+                            dark: '#4a3525', // 짙은 다크 브라운 (텍스트 및 헤더)
+                            accent: '#d4a373' // 부드러운 우드 톤 (보조 포인트)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-brand-dark antialiased">
+
+<div class="max-w-[420px] mx-auto bg-brand-light min-h-screen shadow-2xl relative overflow-x-hidden">
+    
+    <header class="bg-brand-dark text-white px-4 py-4 sticky top-0 z-50 flex justify-center items-center shadow-md">
+        <h1 class="text-lg font-bold tracking-wider">나무와나무</h1>
+    </header>
+
+    <main class="pb-12">
+        <section class="px-5 py-10 bg-white">
+            <h2 class="text-2xl font-bold leading-tight mb-4 keep-all text-brand-dark">
+                아이에게 안전하고 따뜻한<br>친환경 원목 공간과<br>목공 체험을 찾으시나요?
+            </h2>
+            <p class="text-base leading-relaxed text-gray-700 mb-6 keep-all">
+                포천 <strong class="text-brand-dark">나무와나무</strong>는 어린이집, 관공서, 주거 공간의 친환경 원목 인테리어 시공과 온 가족이 함께 즐기는 목공 체험을 제공합니다. 다년간의 노하우로 안전한 친환경 자재만을 사용하여 맞춤 공간과 원목 소품을 만듭니다.
+            </p>
+            
+            <div class="bg-brand-light p-4 rounded-xl mb-6 border border-brand-accent/30">
+                <ul class="space-y-3 text-sm text-gray-700">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-brand mt-0.5 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        <span><strong class="text-brand-dark">상호명:</strong> 나무와나무 (대표: 고성규)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-brand mt-0.5 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <span class="keep-all"><strong class="text-brand-dark">위치:</strong> 경기도 포천시 군내면 반월산성로 423 (포천 IC 2분 거리)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-brand mt-0.5 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <span class="keep-all"><strong class="text-brand-dark">주요 사업:</strong> 어린이집·유치원·관공서 등 원목 인테리어 시공</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-brand mt-0.5 mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path></svg>
+                        <span class="keep-all"><strong class="text-brand-dark">체험/공간:</strong> 원목 디자인 소품 목공 체험 및 다채로운 복합문화공간 운영</span>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="tel:031-542-6846" class="block w-full h-[52px] bg-brand text-white text-center font-bold rounded-xl flex items-center justify-center shadow-lg active:scale-95 transition-transform">
+                안전한 인테리어·체험 전화 문의하기
+            </a>
+        </section>
+
+        <section class="px-5 py-10 bg-brand-light border-t border-gray-200">
+            <span class="text-brand font-bold text-sm tracking-wider mb-2 block">원목 인테리어</span>
+            <h2 class="text-xl font-bold leading-tight mb-4 keep-all text-brand-dark">
+                어린이집과 관공서에 믿을 수 있는 친환경 원목 인테리어를 시공할 수 있을까요?
+            </h2>
+            <p class="text-base leading-relaxed text-gray-700 mb-6 keep-all">
+                나무와나무는 다년간의 시공 경험을 바탕으로 공간에 맞는 디자인을 제안하며, 친환경 자재만을 사용합니다. 이천 다원학교, 전농동 주민센터 등 공공기관 및 다수의 교육 시설 시공 이력을 보유하고 있습니다.
+            </p>
+            
+            <div class="space-y-4 mb-6">
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-brand-dark mb-1">주요 시공 분야</h3>
+                    <p class="text-sm text-gray-600 keep-all">어린이집, 유치원, 관공서, 주거공간, 상업공간</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-brand-dark mb-1">시공 실적</h3>
+                    <p class="text-sm text-gray-600 keep-all">이천 다원학교, 전농동 주민센터, 답십리 어린이집, 진접 풍양어린이집 등 다수</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-brand-dark mb-1">특화 품목</h3>
+                    <p class="text-sm text-gray-600 keep-all">안전 모래놀이 덮개 및 공간 맞춤 원목 가구</p>
+                </div>
+            </div>
+
+            <a href="tel:031-542-6846" class="block w-full h-[48px] bg-brand-dark text-white text-center font-medium rounded-lg flex items-center justify-center shadow-md active:scale-95 transition-transform">
+                우리 기관 맞춤 인테리어 견적 상담
+            </a>
+        </section>
+
+        <section class="px-5 py-10 bg-white border-t border-gray-200">
+            <span class="text-brand font-bold text-sm tracking-wider mb-2 block">목공 체험 & 공간</span>
+            <h2 class="text-xl font-bold leading-tight mb-4 keep-all text-brand-dark">
+                포천에서 아이와 함께 특별한 목공 체험과 휴식을 즐길 수 있나요?
+            </h2>
+            <p class="text-base leading-relaxed text-gray-700 mb-6 keep-all">
+                나무와나무에서는 나만의 원목 소품을 직접 만드는 목공 체험과 넓고 쾌적한 실내외 복합문화공간을 함께 이용할 수 있습니다. 가족이나 친구와 함께 향긋한 나무 향기를 느끼며 특별한 추억을 만들어보세요.
+            </p>
+            
+            <ul class="mb-6 space-y-3">
+                <li class="flex items-start">
+                    <div class="w-1.5 h-1.5 rounded-full bg-brand mt-2 mr-2 shrink-0"></div>
+                    <p class="text-sm text-gray-700 keep-all"><strong class="text-brand-dark">목공 체험 프로그램:</strong> 디자인 소품(빵도마, 편백 스툴 등) 직접 제작 가능</p>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-1.5 h-1.5 rounded-full bg-brand mt-2 mr-2 shrink-0"></div>
+                    <p class="text-sm text-gray-700 keep-all"><strong class="text-brand-dark">휴식 공간 제공:</strong> 맛있는 음료와 넓은 야외 공간이 있는 공방 카페 운영</p>
+                </li>
+            </ul>
+
+            <a href="tel:031-542-6846" class="block w-full h-[48px] bg-brand-dark text-white text-center font-medium rounded-lg flex items-center justify-center shadow-md active:scale-95 transition-transform">
+                가족 단위 목공 체험 일정 확인하기
+            </a>
+        </section>
+
+        <section class="px-5 py-10 bg-brand-light border-t border-gray-200">
+            <span class="text-brand font-bold text-sm tracking-wider mb-2 block">디자인 소품</span>
+            <h2 class="text-xl font-bold leading-tight mb-4 keep-all text-brand-dark">
+                실용적이고 감성적인 원목 디자인 소품을 구입하거나 만들어볼 수 있나요?
+            </h2>
+            <p class="text-base leading-relaxed text-gray-700 mb-6 keep-all">
+                나무와나무에서는 자체 디자인하여 제작한 원목 소품을 판매하며, 이 소품들은 직접 목공 체험으로도 만들어볼 수 있습니다. 캄포 도마, 편백 스툴, 부엉이 스피커 등 다양한 홈데코 제품이 준비되어 있습니다.
+            </p>
+            
+            <div class="grid grid-cols-1 gap-3 mb-6">
+                <div class="bg-white border-l-4 border-brand p-3 shadow-sm">
+                    <h3 class="font-bold text-sm text-brand-dark">주방 용품</h3>
+                    <p class="text-xs text-gray-600 mt-1">빵도마, 캄포 도마, 숯 빵도마, 타일 냄비받침, 티크 플레이팅 접시</p>
+                </div>
+                <div class="bg-white border-l-4 border-brand p-3 shadow-sm">
+                    <h3 class="font-bold text-sm text-brand-dark">가구 및 데코</h3>
+                    <p class="text-xs text-gray-600 mt-1">편백 스툴, 기린 키 재기, 분리수거 거치대, 캠핑 박스, 부엉이 스피커 등</p>
+                </div>
+                <div class="bg-white border-l-4 border-brand p-3 shadow-sm">
+                    <h3 class="font-bold text-sm text-brand-dark">이용 방법</h3>
+                    <p class="text-xs text-gray-600 mt-1">모든 소품은 완성품으로 만나보거나 목공 체험을 통해 직접 제작 가능합니다.</p>
+                </div>
+            </div>
+
+            <a href="tel:031-542-6846" class="block w-full h-[48px] border-2 border-brand text-brand bg-white text-center font-bold rounded-lg flex items-center justify-center shadow-sm active:scale-95 transition-transform">
+                원목 소품 구매 및 제작 문의
+            </a>
+        </section>
+
+        <section class="px-5 py-10 bg-white border-t border-gray-200">
+            <h2 class="text-xl font-bold leading-tight mb-6 text-brand-dark">
+                콘텐츠 팩트 체크 및 제안
+            </h2>
+            
+            <div class="space-y-4">
+                <!-- 카드 1: 확인된 사실 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="bg-gray-50 px-4 py-2 border-b border-gray-200">
+                        <span class="font-bold text-sm text-blue-700">✓ 확인된 사실</span>
+                    </div>
+                    <div class="p-4 bg-white text-sm text-gray-700 space-y-2">
+                        <p class="keep-all">• 상호: 나무와나무 / 대표: 고성규 / 주소: 포천시 반월산성로 423</p>
+                        <p class="keep-all">• 주요 사업: 어린이집/관공서 친환경 원목 인테리어, 원목 소품, 목공체험</p>
+                        <p class="keep-all">• 시공 실적: 이천 다원학교, 전농동 주민센터, 답십리 어린이집 등</p>
+                        <p class="keep-all">• 소품 목록: 캄포 도마, 숯 빵도마, 편백 스툴, 부엉이 스피커 등</p>
+                        <p class="text-xs text-gray-400 mt-2">※ 공식 홈페이지 내 명시된 내용 직접 확인</p>
+                    </div>
+                </div>
+
+                <!-- 카드 2: 해석 제안 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="bg-gray-50 px-4 py-2 border-b border-gray-200">
+                        <span class="font-bold text-sm text-emerald-700">💡 해석 및 제안</span>
+                    </div>
+                    <div class="p-4 bg-white text-sm text-gray-700 space-y-2">
+                        <p class="keep-all">• 모바일 기기(390px) 환경에서 고객이 정보를 빠르게 파악할 수 있도록 핵심 답변과 단문 위주의 4개 정보 섹션으로 압축 구성했습니다.</p>
+                        <p class="keep-all">• 사진 자료 부재 시, 레이아웃이 무너지지 않도록 텍스트와 타이포그래피 기반의 직관적인 CTA 버튼을 강조했습니다.</p>
+                        <p class="text-xs text-gray-400 mt-2">※ 모바일 최적화 레이아웃 제안</p>
+                    </div>
+                </div>
+
+                <!-- 카드 3: 확인 필요 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="bg-gray-50 px-4 py-2 border-b border-gray-200">
+                        <span class="font-bold text-sm text-rose-700">⚠️ 확인 필요 항목</span>
+                    </div>
+                    <div class="p-4 bg-white text-sm text-gray-700 space-y-2">
+                        <p class="keep-all">• 목공 체험 프로그램의 개별 수강료, 소요 시간, 최소/최대 인원 규정</p>
+                        <p class="keep-all">• 채널별로 다르게 기재된 공식 운영 시간 통일 (예: 평일 마감 18시 vs 21시)</p>
+                        <p class="keep-all">• 단체 출강 시 출장 가능 지역 및 견적 기준 명확화</p>
+                        <p class="text-xs text-gray-400 mt-2">※ 업체 담당자 인터뷰 및 팩트체크 필요</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-brand-dark text-gray-300 py-8 px-5 text-xs text-center border-t-4 border-brand">
+        <p class="font-bold text-white mb-2 text-sm">나무와나무</p>
+        <p class="mb-1">대표 : 고성규 | 사업자등록번호 : 812-66-00092</p>
+        <p class="mb-1">통신판매업신고 : 2017-경기포천-0284</p>
+        <p class="mb-1">경기 포천시 군내면 반월산성로 423</p>
+        <p class="mb-4">Tel : 031-542-6846 | Email : ksk4ksk4@hanmail.net</p>
+        <p class="text-gray-500">&copy; 나무와나무 All rights reserved.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
